@@ -1,6 +1,6 @@
 # G++ configuration
 CC = g++
-CFLAGS = -Wall -Wextra -Werror -L /usr/local/lib/ -lsfml-graphics -lsfml-window -lsfml-system
+CFLAGS = -Wall -Wextra -Werror -L /usr/local/lib/ -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 # I/O directories
 OBJ_DIR = obj
